@@ -1,0 +1,44 @@
+    body{
+        background-color: lightsalmon;
+        background-image: url(snake.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        height: 500px;
+            }
+            h2{
+                background-color: cornflowerblue;
+
+                text-align:center;
+
+                padding: 10px;
+
+
+    }
+            #a{
+                color: purple;
+                font-style: italic;
+                font-family: 'Algerian';
+                text-align: center;
+                text-decoration: underline;
+                text-decoration-color: chartreuse;
+                text-decoration-style:dashed;
+                font-size: 40px;
+            }
+
+    #a{
+        animation-name: change-colour;
+        animation-duration: 4s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+
+        @keyframes change-colour{
+
+            0%{color: darkred}
+            20%{color: crimson}
+            40%{color: darkblue}
+            60%{color: mediumvioletred}
+            80%{color: darkgreen}
+            100%{color: saddlebrown}
+    }
